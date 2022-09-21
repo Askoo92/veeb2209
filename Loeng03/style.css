@@ -1,20 +1,42 @@
 body {
-    background-image: url("background.jpeg;)
-    background-color: #cccccc;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-  }
+background-color: bisque;
   
-  #uudised { 
-      width: 800px;
-      background-color: beige;
-      margin-left: auto;
-      margin-right: auto; 
-      margin-top: 150px;
-      padding-top: 35px;
-      padding-left: 15px;
-      padding-right: 15px;
-      padding-bottom: 50px; 
-  } 
+}
+
+#uudised1 {
+    width: 115px ;
+    background-color: burlywood;
+    margin-left: 300px;
+    margin-right: auto;
+}
+  
+#uudis1 { 
+    front-size: 16px;
+    display: inline-block;
+    width: 250px;
+    border: 1px outset black;
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: yellowgreen;
+
+} 
+
+#uudis2 { 
+    front-size: 16px;
+    display: inline-block;
+    width: 250px;
+    border: 1px outset black;
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: yellowgreen;
+} 
+
+#uudis3 { 
+    front-size: 16px;
+    display: inline-block;
+    width: 250px;
+    border: 1px outset black;
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: yellowgreen;
+}
