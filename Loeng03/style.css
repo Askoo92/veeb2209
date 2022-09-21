@@ -1,6 +1,6 @@
 body {
 background-color: bisque;
-  
+
 }
 
 #uudised1 {
@@ -9,8 +9,8 @@ background-color: bisque;
     margin-left: 300px;
     margin-right: auto;
 }
-  
-#uudis1 { 
+
+#uudis1 {
     front-size: 16px;
     display: inline-block;
     width: 250px;
@@ -19,9 +19,9 @@ background-color: bisque;
     box-sizing: border-box;
     background-color: yellowgreen;
 
-} 
+}
 
-#uudis2 { 
+#uudis2 {
     front-size: 16px;
     display: inline-block;
     width: 250px;
@@ -29,9 +29,9 @@ background-color: bisque;
     padding: 30px;
     box-sizing: border-box;
     background-color: yellowgreen;
-} 
+}
 
-#uudis3 { 
+#uudis3 {
     front-size: 16px;
     display: inline-block;
     width: 250px;
