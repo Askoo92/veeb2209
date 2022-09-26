@@ -1,0 +1,66 @@
+body {
+    font-family: 'Walter Turncoat';
+    font-size: 16px;
+}
+
+ header {
+    display: flex;
+    justify-content: space-between;   
+    background-color: darkorange;
+    padding: 8px;
+  }
+
+  header > a > image,
+  header > div {
+   width: 120px;
+   background-color: darkorange;
+}
+
+  main > nav > img {
+    width: 600px;
+    height: 400px; 
+  }
+
+  body > nav {
+    padding: 15px;
+    background-color: darkorange;
+    display: flex;
+    justify-content: center;
+    gap: 10px;   
+  }
+
+  main {
+    padding: 30px;
+    background-color: lavender;
+  }
+
+ main > nav {
+    display: flex;
+    justify-content: center;
+    
+    }
+ main > article {
+    display: flex;
+    justify-content: center;
+ }
+
+ main > div {
+  display: flex;
+  justify-self: center;
+ }
+
+footer {
+    padding: 20px;
+    background-color: darkorange;
+}
+footer > nav {
+    display: flex;
+    gap: 10px;
+}
+
+main > aside {
+  display: flex;
+ justify-content: flex-end;
+
+}
+
