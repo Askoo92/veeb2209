@@ -39,12 +39,13 @@ body {
     justify-content: center;
     
     }
- main > article {
+ main > nav > article {
     display: flex;
+    flex-direction: column;
     justify-content: center;
  }
 
- main > div {
+ main > div style {
   display: flex;
   justify-self: center;
  }
@@ -62,5 +63,9 @@ main > aside {
   display: flex;
  justify-content: flex-end;
 
+}
+main style {
+  display: flex;
+  justify-self: center;
 }
 
