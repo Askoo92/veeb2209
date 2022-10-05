@@ -1,3 +1,4 @@
+
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
@@ -14,7 +15,7 @@ body {
     padding-top: 32px;
     padding-left: 72px;
     padding-right: 80px;
-} 
+}
 
 .pais>nav {
     display: flex;
@@ -61,10 +62,11 @@ body {
 
 .pais>.alumine>.sisu {
     margin-top: 230px;
+
 }
 
-h1, 
-h2, 
+h1,
+h2,
 h4 {
     font-weight: 800;
     letter-spacing: 0px;
@@ -73,16 +75,33 @@ h4 {
 
 .pais>.alumine>.sisu>h2 {
     font-size: 40px;
+    margin: 0;
 }
 
 .pais>.alumine>.sisu>h1 {
     font-size: 74px;
+    margin: 0;
 }
 
 .pais>.alumine>.sisu>h4 {
     font-size: 21px;
+    margin-top: 14px;
+    max-width: 477px;
 }
-  
+
+.pais>.alumine>.sisu>button {
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 2.25px;
+    line-height: 29px;
+    background-color: #000000;
+    padding: 21px 25px;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
 .pais>.alumine>.pilt {
     background-image: url("assets/pilt.png");
     height: 915px;
@@ -91,32 +110,221 @@ h4 {
     background-repeat: no-repeat;
     background-size: cover;
     margin-right: -300px;
-    border-radius: 500px; 
-} 
+    border-radius: 500px;
+    filter: drop-shadow(0px 70px 40px #000);
+}
 
-.pais>.alumine>.pilt>.vari {
-    background-image: url("assets/Shadow@2x.png");
-    width: 1091px;
-    height: 89px;
+.pais>.alumine>.liblikas1 {
+    background-image: url("assets/liblikas1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;   
+    width: 64x;  
+    height: 32px; 
+    position: absolute;
+    top: -30px;
+    left: -43px;
+}
+
+.pais>.alumine>.liblikas2 {
+    background-image:url("assets/liblikas2.png");
+    height: 66px;
+    width: 75px;
+    margin-top: 75.52px;
+    margin-left: 66.04px;
+}
+
+.teine {
+    padding-left: 79px;
+    margin-top: 120px;
+}
+
+.teine>.ylemine>h3.hall {
+    color: gray;
+    text-transform: uppercase;
+    font-size: 42px;
+}
+
+.teine>.ylemine>h3 {
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 58.33px;
+    letter-spacing: -1.08px;
+    margin: 0;
+    max-width: 500px;
+}
+
+.teine>.alumine {
+    display: flex;
+    gap: 34px;
+    justify-content: space-between;
+}
+
+.teine>.alumine>.vasak {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin-top: 25px;
+}
+
+.teine>.alumine>.vasak>section {
+    letter-spacing: 0px;
+    color: gray;
+    font-size: 21px;
+    line-height: 33px;
+    margin-bottom: 150px;
+}
+
+.teine>.alumine>.vasak>.nooled {
+    font-size: 50px;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.nooled>.vasak,
+.nooled>.parem {
+    font-size: 72px;
+}
+
+.nooled>.kaldkriips {
+    margin: 0 10px;
+}
+
+.nooled>.kaldkriips,
+.nooled>.kokku-lehekylgi,
+.nooled>.parem {
+    color: #9A9A9A;
+}
+
+.nooled>.kaldkriips,
+.nooled>.kokku-lehekylgi {
+    font-size: 36px;
+}
+
+.nooled>.kokku-lehekylgi {
+    margin-top: 6px;
+}
+
+.teine>.alumine>.parem {
+    display: flex;
+    margin-top: 25px;
+    margin-right: -150px;
+}
+
+.teine>.alumine>.parem>.pilt {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: absolute;
+    height: 406px;
+    width: 309px;
+    margin-left: 34px;
+}
+
+.teine>.alumine>.parem>.pilt1 {
+    background-image: url('assets/tudruk.png');
+    box-shadow: 28px 29px 119px -16px rgba(0, 0, 0, 0.75);
+}
+
+.teine>.alumine>.parem>.pilt2 {
+    background-image: url('assets/poiss.png');
+
+}
+
+.teine>.alumine>.parem>.pilt3 {
+    background-image: url('assets/poisid.png');
+
+}
+
+.jalus>nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 56.31px;
+    padding-right: 47.3px;
+    align-items: center;
+}
+
+.logo-pilt2 {
+    height: 53px;
+}
+
+.logo-tekst2 {
+    font-size: 27px;
+    font-weight: 800;
+    line-height: 35px;
+    color: #0B0B0B;
+    display: flex;
+    flex-direction: column;
+}
+
+.jalus {
+    background: #F3F3F3 0% 0% no-repeat padding-box;
+    height: 276px;
+    margin-left: 56px;
+    margin-right: 57px;
+    padding-left: 56px;
+    margin-bottom: 60px;
+}
+
+
+.all>.tekst>h5 {
+    background: linear-gradient(90deg, #000000 60%, #F3F3F3 40%);
+    font-size: 22.37px;
+    margin: 3px;
+    background-color: #000000;
+    letter-spacing: 0px;
+    text-align: center;
+    text-align: left;
+    letter-spacing: NaNpx;
+    color: #FFFFFF;
+}
+
+.all>.tekst>h6 {
+    font-size: 32.69px;
+    margin: 3px;
+    background-color: #000000;
+    text-align: center;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    height: 30px;
     
 }
 
-.pais>.alumine>.sisu>button {
-    background-color: #000000;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    font-size: 12.5px;
-    letter-spacing: 2.25px;
+.all>.keskmine>section {
     font-family: 'Montserrat', sans-serif;
-  }
-
-.pais>.alumine2 {
-    margin-top: 230px;
+    font-size: 16.67px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #010101;
+    opacity: 1;
 }
 
+.socialbtns, .socialbtns ul, .socialbtns li {
+    margin: 0;
+    padding: 2px;
+}
+a, a:hover {
+    text-decoration: none;
+}
 
+.socialbtns li {
+    list-style: none outside none;
+    display: inline-block;
+}
+
+.socialbtns .fa {
+    width: 30px;
+    height: 18px;
+    color: #FFF;
+    background-color: #000;
+    padding-top: 12px;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -o-border-radius: 20px;
+    transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    -webkit-transition: all ease 0.5s;
+    -o-transition: all ease 0.5s;
+}
