@@ -7,4 +7,4 @@
 -[Loeng 5](https://askoo92.github.io/veeb2209/Loeng05)
 -[Loeng 6](https://askoo92.github.io/veeb2209/Loeng06)
 -[Matkaklubi](https://askoo92.github.io/veeb2209/Matkaklubi)
--[Kodune08](https://askoo92.github.io/veeb2209/Kodune08)
+-[kodune08](https://askoo92.github.io/veeb2209/kodune08)
