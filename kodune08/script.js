@@ -10,6 +10,11 @@ function hindaNime() {
      let nimePikkus = nimiElement.value.length;
            hinnangElement.style.display = 'inline';
            piltElement.style.display = 'none';
+           pilt2Element.style.display = 'none';
+
+     if (nimePikkus == 0) {
+           hinnangElement.style.display = 'none';
+     }
 
      else if (nimePikkus < 6) {
            hinnangElement.innerHTML = "Küll on sul ilus lühike nimi.";
@@ -46,7 +51,7 @@ let index = 0;
 const colors = ['salmon', 'green'];
  
 btn.addEventListener('click', function onClick() {
-       btn.style.backgroundColor = colors[index];
-       btn.style.color = 'white';
+     btn.style.backgroundColor = colors[index];
+     btn.style.color = 'white';
        index = index >= colors.length - 1 ? 0 : index + 1;
  });
