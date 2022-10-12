@@ -1,0 +1,35 @@
+body {
+    background-color: bisque;
+    
+}   
+
+h1 {
+    margin: 50px;
+}
+
+#uudised {
+    display: contents;
+}
+
+.uudised {
+     margin-top: 50px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+}
+
+ .pildid {
+    width: 150px;
+    height: 150px;
+ }
+    
+.uudis {
+     front-size: 16px;
+     width: 250px;
+     border: 1px outset black;
+     padding: 30px;
+     box-sizing: border-box;
+     background-color: yellowgreen;
+     display: inline-block;
+ }
+
