@@ -10,3 +10,4 @@
 -[Matkaklubi](https://askoo92.github.io/veeb2209/Matkaklubi)
 -[kodune08](https://askoo92.github.io/veeb2209/kodune08)
 -[kodune09](https://askoo92.github.io/veeb2209/Kodune09)
+-[Loeng10](https://askoo92.github.io/veeb2209/Loeng10)
