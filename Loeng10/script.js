@@ -11,16 +11,22 @@ function toggleIsDone(id) {
             todos[i].isDone = !todos[i].isDone;
         }
     }
-    renderTodos();
+     renderTodos();
 }
 
- function deleteTodo(id) {
-     todos.splice(0, 1);
+function deleteTodo(id) {
+     console.log(id);
+
+     for (let i = 0; i < todos.length; i++) {
+        if (todos[i].id == id) {
+            todos.splice(i, 1);
+         }
+        }
+
+     renderTodos();
        
-    renderTodos();
 } 
 
- 
 function renderTodos() {
     todoListElement.innerHTML = '';
     for (let i = 0; i < todos.length; i++) {
