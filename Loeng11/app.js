@@ -5,10 +5,10 @@ const hostname = 'localhost';
 const port = 3000;
 
 
-    const server = http.createServer(function (req, res) {
-    const queryData = url.parse(req.url, true).query;
-      res.writeHead(200, {"Content-Type": "text/plain"});
-      console.log(queryData.nimi);
+const server = http.createServer(function (req, res) {
+const queryData = url.parse(req.url, true).query;
+  res.writeHead(200, {"Content-Type": "text/plain"});
+    console.log(queryData.nimi);
     
     if (queryData.nimi) {
       res.end('Tere ' + queryData.nimi + '\n');
