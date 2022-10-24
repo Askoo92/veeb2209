@@ -12,3 +12,4 @@
 -[kodune09](https://askoo92.github.io/veeb2209/Kodune09)
 -[Loeng10](https://askoo92.github.io/veeb2209/Loeng10)
 -[Loeng11](https://askoo92.github.io/veeb2209/Loeng11)
+-[Loeng12](https://askoo92.github.io/veeb2209/Loeng12)
